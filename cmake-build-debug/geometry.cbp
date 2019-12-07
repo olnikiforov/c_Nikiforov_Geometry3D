@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="geometry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/geomerty/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry">
+				<Option output="C:/geomerty/cmake-build-debug/geometry.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/geomerty/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry/fast">
+				<Option output="C:/geomerty/cmake-build-debug/geometry.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/geomerty/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/geomerty/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/geomerty/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/geomerty/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/geomerty/computeGeometry3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/computeGeometry3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/line3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/line3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/main.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/matrix.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/matrix.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/plane3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/plane3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/point3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/point3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/pyramid3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/pyramid3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/segment3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/segment3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/triangle3D.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/triangle3D.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/vector3d.c">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/vector3d.h">
+			<Option target="geometry"/>
+		</Unit>
+		<Unit filename="C:/geomerty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
